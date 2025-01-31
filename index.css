@@ -1,0 +1,121 @@
+@import url('https://fonts.cdnfonts.com/css/new-super-mario-font-u');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #87ceeb;
+    height: 100vh;
+    background-image: url("../img/fundo.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    font-family: 'New Super Mario Font U', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: white;
+}
+#logo {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+#text-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+#nav-link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+#logoImg {
+    width: 50px;
+    height: 50px;
+}
+main {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    position: relative;
+}
+#title {
+    color:red;
+    font-weight: bold;
+    padding: 5px;
+}
+.text {
+    font-size: 46px;
+    display: flex;
+    justify-content: center; 
+}
+.subtitle{
+    font-size: 26px;
+}
+#text-inicio {
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+.quadrado {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+.imagens img{
+   border-radius: 10px;
+   height: 300px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.ferias{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+.quadrado:hover{
+    transform: translateY(-15px);
+    transition: all 0.2s;
+}
+.subir:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s;
+}
